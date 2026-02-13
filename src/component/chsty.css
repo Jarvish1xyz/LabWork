@@ -1,0 +1,26 @@
+.body {
+    background: white;
+}
+
+nav {
+    background-color:#f7e6d6c9;
+}
+
+.pqr {
+    transition: all 0.3s;
+    /* border: 1px solid #f7e6d6c9; */
+    width: auto;
+    font-size: 3vh;
+    line-height: 1.2;
+}
+
+.pqr:hover {
+    cursor: pointer;
+    background-color: #f7e6d6c9;
+}
+
+@media screen and (max-width: 991px) {
+    .pqr {
+        font-size: 2.3vh;
+    }
+}

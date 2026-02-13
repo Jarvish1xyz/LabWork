@@ -1,0 +1,24 @@
+/* Make only the SVG clickable, not full side area */
+.carousel-control-prev.custom-control,
+.carousel-control-next.custom-control {
+  width: auto;
+  height: auto;
+  background: none;
+  opacity: 1;
+}
+
+.carousel-control-prev svg,
+.carousel-control-next svg {
+  transform: scale(1.5);
+}
+
+.carousel-control-prev.custom-control svg,
+.carousel-control-next.custom-control svg {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.carousel-control-prev.custom-control svg:hover,
+.carousel-control-next.custom-control svg:hover {
+  transform: scale(1.1);
+}
